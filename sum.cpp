@@ -3,15 +3,18 @@ using namespace std;
 
 int main(){
 
-    int amount1;
-    int amount2;
+    int amount1; //-declare//
+    cin>>amount1; //-input//
+    
+    
+    int amount2; //-declare//
+    cin>>amount2; //-input//
+    
+ 
 
-    cin>>amount1;
-    cin>>amount2;
+    int sum=amount1+amount2; //declare sum//
 
-    int sum=amount1+amount2;
-
-    cout<<sum;
+    cout<<sum; //-output//
 
 
     return 0;
